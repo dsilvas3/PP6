@@ -1,1 +1,56 @@
-styel
+#main-navbar{	
+	background-color: blue;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+}
+#navbar-container ul{
+	float: left;
+	list-style-type: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#navbar-container{
+	left: 40%;
+	float: left;
+	position: relative;
+}
+#navbar-container ul li{
+	float: left;
+	display: block;
+	padding: 10px 20px;
+}
+#navbar-container a{
+	color: #fff;
+	text-decoration: none;
+}
+#onpage a{
+	text-decoration: underline overline;
+}
+
+
+#sidebar{
+	position: fixed;
+	right: 0%;
+	background-color: red;
+	height: 100%;
+	width: 20%;
+}
+#sidebar ul{
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+}
+#sidebar ul li{
+	display: block;
+	padding: 15px 0;
+}
+#sidebar a{
+	color: #fff;
+	text-decoration: none;
+}
+#sidebar a:active{
+	background-color: #000;
+}
